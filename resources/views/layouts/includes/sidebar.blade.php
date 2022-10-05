@@ -47,7 +47,8 @@
                      </a>
                  </li>
                  <li class="nav-item">
-                     <a href="#" class="nav-link ">
+                     <a href="{{ route('activitymedia.index') }}"
+                     class="nav-link ">
                          <i class="nav-icon fas fa-th" style="color: #000000;"></i>
                          <p style="color: #000000;">
                              Media Activity

@@ -15,11 +15,11 @@ class ActivityNedia extends Model
     public $timestamps = true;
 
     // membuat relasi one to one
-    public function user()
+    public function activity()
     {
         // data dari model 'Siswa' bisa dimiliki
         // oleh model 'Guru' melalui 'id_siswa'
-        return $this->belongsTo(User::class, 'id_activities');
+        return $this->belongsTo(Activity::class, 'id_activities');
     }
 
     // membuat relasi one to many di model
